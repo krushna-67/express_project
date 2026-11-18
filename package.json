@@ -1,0 +1,23 @@
+{
+  "name": "express_project",
+  "version": "1.0.0",
+  "description": "Production Express.js REST API demonstrating ReplyCraft response standardization, centralized error handling, pagination, and request tracking.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "express",
+    "replycraft",
+    "rest-api",
+    "api-toolkit"
+  ],
+  "author": "krushna-67",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "replycraft": "^1.0.1"
+  }
+}
